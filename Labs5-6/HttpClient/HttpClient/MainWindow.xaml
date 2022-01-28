@@ -1,0 +1,17 @@
+﻿<Window x:Class="HttpClientNets.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HttpClientNets"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="Url" Height="100" Width="300" Margin="10" HorizontalAlignment="Left"
+                 VerticalAlignment="Top">https://yandex.ru/</TextBox>
+        <Button Click="Get_OnClick" Name="Get" Height="100" Width="100" Margin="10" HorizontalAlignment="Center"
+                VerticalAlignment="Top">Get</Button>
+        <TextBlock Name="Content" Height="500" Width="1000" Margin="10" HorizontalAlignment="Center"
+                   VerticalAlignment="Bottom"></TextBlock>
+    </Grid>
+</Window>
